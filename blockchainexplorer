@@ -1,0 +1,12 @@
+-- how to generate URL in etherscan --
+
+
+baseURL = https://.etherscan.io
+
+blockchain explorer URL for  specific publicaddress =>
+ URL =  baseURL + /address + /publicaddress
+
+blockchain explorer URL for txhash  =>
+URL =  baseURL + /tx + /tx hash
+
+
