@@ -10,12 +10,10 @@ This repository consist of code snippets for tasks related to web3
 ### Prerequisite
  -  To start the project
  ``` 
-    bash
     npm init
  ```
  - to run scripts 
  ```
- bash
  node (foldername).js
  ```
 
