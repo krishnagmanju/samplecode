@@ -1,9 +1,8 @@
 {
   "name": "samplecode",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "type" :"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +13,14 @@
     "dotenv": "^16.0.3",
     "ethereumjs-wallet": "^1.0.2",
     "web3": "^1.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnagmanju/samplecode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishnagmanju/samplecode/issues"
+  },
+  "homepage": "https://github.com/krishnagmanju/samplecode#readme",
+  "description": ""
 }

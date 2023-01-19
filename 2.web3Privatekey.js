@@ -1,5 +1,5 @@
-const Web3 = require('web3');
-const HDWalletProvider = require("@truffle/hdwallet-provider");
+import Web3 from'web3';
+import HDWalletProvider from "@truffle/hdwallet-provider";
 
 // initialize web3 using private key and provider
 
