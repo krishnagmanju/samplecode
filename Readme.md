@@ -17,7 +17,7 @@ This repository consist of code snippets for tasks related to web3
  node (foldername).js
  ```
 
- ### Scipts
+ ### Scripts
  1. Initializes web3 using localhost as provider
  2. Initializes web3 using private key and blockchain explorer URL
  3. Generates mnemonic phrases using bip39 lib ,then private key ,public key and public address are derived.
