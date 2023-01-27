@@ -2,7 +2,6 @@
   "name": "samplecode",
   "version": "1.0.0",
   "main": "index.js",
- 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +10,7 @@
   "dependencies": {
     "@moralisweb3/common-evm-utils": "^2.11.1",
     "@truffle/hdwallet-provider": "^2.1.5",
+    "axios": "^1.2.4",
     "bip39": "^3.0.4",
     "dotenv": "^16.0.3",
     "ethereumjs-wallet": "^1.0.2",

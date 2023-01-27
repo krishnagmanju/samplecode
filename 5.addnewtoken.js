@@ -1,10 +1,8 @@
 // Import web3
-import Web3 from 'web3';
+const Web3 =require ('web3');
 // import contractABI from "./abi.json";
-import contractABI from './abis/abi.json';
-
-import * as dotenv from 'dotenv';
-dotenv.config();
+const contractABI = require ('./abis/abi.json');
+require ('dotenv').config();
 
 async function network(){
 // Connect to the Ethereum network

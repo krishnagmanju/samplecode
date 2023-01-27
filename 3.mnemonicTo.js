@@ -1,5 +1,5 @@
-import bip39 from 'bip39';
-import { hdkey } from 'ethereumjs-wallet';
+const bip39 = require ('bip39');
+const { hdkey } = require ('ethereumjs-wallet');
 
 
 var mnemonic;
