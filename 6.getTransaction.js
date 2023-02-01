@@ -1,8 +1,8 @@
-import Web3 from'web3';
-
-import * as dotenv from 'dotenv';
-dotenv.config();
-
+// Import web3
+const Web3 =require ('web3');
+// import contractABI from "./abi.json";
+const contractABI = require ('./abis/abi.json');
+require ('dotenv').config();
 
 async function App(){
 const key = process.env.INFURA_URL
