@@ -7,7 +7,7 @@ const runApp = async() => {
   
   });
   
-  const address = '0xBB7495884F80849f3828FC1339CeDD288434Ad59';
+  const address = '0x758ED5580B5Abad3cb71B5B597E58aaEF8f62788';
   
   const chain = EvmChain.GOERLI;
 

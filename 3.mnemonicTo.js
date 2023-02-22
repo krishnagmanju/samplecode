@@ -4,10 +4,10 @@ const { hdkey } = require ('ethereumjs-wallet');
 
 var mnemonic;
 function generate() {
-   const mnemonic = bip39.generateMnemonic();
-   console.log(mnemonic)
+   // const mnemonic = bip39.generateMnemonic();
+   // console.log(mnemonic)
 
-   const seed = bip39.mnemonicToSeedSync(mnemonic);
+   const seed = bip39.mnemonicToSeedSync("stem meat final error cup clinic intact correct open sun beach used");
    console.log(seed)
    const hdwallet = hdkey.fromMasterSeed(seed);
    console.log(hdwallet)

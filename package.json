@@ -13,8 +13,13 @@
     "axios": "^1.2.4",
     "bip39": "^3.0.4",
     "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.1.5",
     "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^6.0.2",
+    "ethers-utils": "^2.1.11",
     "moralis": "^2.11.1",
+    "secp256k1": "^5.0.0",
     "web3": "^1.8.1"
   },
   "repository": {
